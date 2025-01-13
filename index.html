@@ -224,6 +224,8 @@ type 'socials <platform>' to open link directly
         // email command
 
         if(command === 'email'){
+            commandEmail = document.createElement('pre');
+            commandEmail.textContent = "opening your email app..."
             window.location.href = 'mailto:harshitrajmishras@gmail.com';
         }
     }
