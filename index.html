@@ -112,7 +112,7 @@ commandInput.addEventListener('keydown', function(event) {
         outputDiv.appendChild(commandOutput);
         commandInput.value = '';
         outputDiv.scrollTop = outputDiv.scrollHeight;
-        var commands = 'about, echo, clear, help, banner, socials connect';
+        var commands = 'about, echo, clear, help, banner, socials, connect, email';
 
         if (!commands.includes(command.split(' ')[0])) {
             commandError = document.createElement('div');
