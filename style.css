@@ -1,0 +1,61 @@
+body {
+    /* Background color of the entire page */
+    background-color: #00224D;
+    /* Text color */
+    color: #A0153E;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; /* Make all text bold */
+    margin: 0;
+    padding: 40px; /* Added padding to the entire page */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box; /* Include padding in height calculation */
+    /* Outline for the entire page */
+    border: 5px solid #5D0E41;
+    border-radius: 15px; /* Rounded border */
+}
+#output {
+    /* Flex to take up remaining space */       
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+#command-input {
+    /* Border color for the top of the input area */
+    display: flex;
+    justify-content: left; /* Center the input box */
+}
+#command-input input {
+    /* Background color of the input box */
+    background-color: #00224D; 
+    display: flex;
+    justify-content: left; /* Center the input box */
+    width: 100%; /* Take up the entire width */
+    /* Text color of the input box */
+    color: #FF204E;
+    border: none;
+    padding: 0 0 0 10px;
+    /* width: 80%;  Center the input box with padding on both sides */
+    font-size: 16px;
+    font-weight: bold; /* Make input text bold */
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.holder-red{
+    color: #836FFF;
+    
+    
+}
+.holder-white{
+    color: #15F5BA;
+}
+
+.command-output{
+    
+    color: #FF204E;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
